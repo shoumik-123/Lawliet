@@ -1,0 +1,154 @@
+@media only screen and (max-width: 1400px){
+
+
+
+
+    .hero-section-left{
+        width: 50%;
+        float: left;
+    }
+
+
+    .hero-section-right{
+        width: 50%;
+        float: right;
+    }
+
+    .hero-section-right img{
+        max-width: 100%;
+    }
+
+    .legalization{
+        width: 100%;
+    }
+    
+    .legalization-box .col-md-6{
+        width: 70%;
+        margin: 30px auto;
+
+    }
+
+}
+
+
+
+@media only screen and (max-width: 1100px){
+
+
+    .navbar{
+        width: 100%;
+    }
+
+
+    .hero-section-left{
+        width: 50%;
+    }
+
+
+    .hero-section-right{
+        width: 50%;
+    }
+
+    .contact{
+        text-align: center;
+        height: auto;
+    }
+    .contact-img{
+        position: static;
+        margin: 30px auto;
+    }
+    
+
+
+}
+
+
+@media only screen and (max-width: 992px){
+
+
+    .navbar{
+        width: 100%;
+    }
+
+
+    .hero-section-left{
+        width: 100%;
+        text-align: center;
+    }
+
+
+    .hero-section-right{
+        width: 100%;
+        text-align: center;
+    }
+
+    .legalization-left , .legalization-right{
+        width: 100%;
+
+    }
+    .legalization-left{
+        text-align: center;
+    }
+    
+    .legalization-box .col-md-6{
+        width: 70%;
+        margin: 30px auto;
+
+    }
+
+}
+
+
+
+@media only screen and (max-width: 767px){
+
+
+    
+    .navbar-nav {
+        position: static;
+        display: none;
+    }
+
+    .sidebar{
+        display: block;
+        background: #fff;
+    }
+    .close-btn{
+        
+        position: absolute;
+        right: 25px;
+        top: 25px;
+        display: block;
+    }
+
+    .bar-btn{
+        display: block;
+        position: absolute;
+        top: 25px;
+        right: 25px;
+    }    
+    
+    .responsive-nav-item {
+        display: block;
+        background-color: #fff;
+    }    
+    .responsive-nav-item ul {
+        background: #fff;
+    }    
+    
+    .responsive-nav-item ul li {
+        list-style: none;
+        background: #fff;
+        margin: 16px auto!important;
+    }
+
+    .footer , .copyright{
+        text-align: center;
+    }
+
+    .footer-icon-div{
+        margin:20px auto!important;
+
+    }
+
+}
